@@ -67,19 +67,13 @@ public class Main {
         public static void Exercicio3(){
 
         Relatorio Leitura = new DoRelatorio()
-                .setTitulo("SUV")
-                .setCorpo("Prata")
-                .setRodape("4")
+                .setTitulo("relatorio")
+                .setCorpo("corpo do relatorio aqui")
+                .setRodape("cianorte, 04/10")
                 .build();
 
-        Relatorio Anual = new DoRelatorio()
-                .setTitulo("SUV")
-                .setCorpo("Preto")
-                .setRodape("4")
-                .build();
 
         System.out.println(Leitura.toString());
-        System.out.println(Anual.toString());
 
     }
 }
